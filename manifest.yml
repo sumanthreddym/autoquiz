@@ -1,0 +1,12 @@
+modules:
+  macro:
+    - key: autoquiz-auto-quiz
+      function: main
+      title: AutoQuiz
+      description: Generate Quiz automatically for your Confulence pages
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: "ari:cloud:ecosystem::app/0b94968e-965e-4f31-bff9-143c2afeebd0"
+  name: AutoQuiz
